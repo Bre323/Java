@@ -1,4 +1,3 @@
-package if_statement;
 import java.util.Scanner;
 
 public class voto {
@@ -13,13 +12,13 @@ public class voto {
 		vot.close();
 		
 		if (age <= 16) {
-			System.out.println("Não vota");
+			System.out.println("NÃ£o vota");
 		}
 		if (16 < age && age < 18 || age > 70) {
 			System.out.println("Voto opcional");
 		}
 		if (age >= 18 && age <= 70) {
-			System.out.println("Voto Obrigatório");
+			System.out.println("Voto ObrigatÃ³rio");
 		}
 	}
 
