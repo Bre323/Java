@@ -1,4 +1,3 @@
-package if_statement;
 import java.util.Scanner;
 
 public class idade {
@@ -13,16 +12,16 @@ public class idade {
 		scanner.close();
 		
 		if (age < 13) {
-			System.out.println("Voce é uma criança");
+			System.out.println("Voce Ã© uma crianÃ§a");
 		}
 		else if (age >= 13 && age < 18) {
-			System.out.println("Voce é um adolescente");
+			System.out.println("Voce Ã© um adolescente");
 		}
 		else if (age >= 18 && age <= 60) {
-			System.out.println("Voce é um adulto");
+			System.out.println("Voce Ã© um adulto");
 		}
 		else if (age > 60) {
-			System.out.println("Voce é um idoso");
+			System.out.println("Voce Ã© um idoso");
 		}
 		else {
 			System.out.println("ERROR");
