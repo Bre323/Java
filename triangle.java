@@ -1,4 +1,3 @@
-package if_statement;
 import java.util.Scanner;
 
 public class triangle {
@@ -20,10 +19,10 @@ public class triangle {
 		sides.close();
 		
 		if(x == y && y == z && z == x) {
-			System.out.println("Triangulo Equil·tero");
+			System.out.println("Triangulo Equil√°tero");
 		}
 		else if(x == y || y == z || z == x) {
-			System.out.println("Triangulo IsÛsceles");
+			System.out.println("Triangulo Is√≥sceles");
 		}
 		else if(x != y && y != z && z != x) {
 			System.out.println("Triangulo Escaleno");
