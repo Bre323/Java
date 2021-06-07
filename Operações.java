@@ -1,22 +1,31 @@
 import java.util.Scanner;
 
-public class Operações {
+public class OperaÃ§Å‘es {
 
+	/*
+	Operadores lÃ³gicos podem ser usados caso necessite conectar duas ou mais expressÃµes
+	
+	3 tipos de operadores lÃ³gicos sÃ£o usados:
+		- "&&" (AND): As duas condiÃ§Ãµes devem ser verdadeiras.
+		- "||" (OR) : Uma das condiÃ§Ãµes impostas deve ser verdadeiras.
+		- "!"  (NOT): Reverte o valor booleano da condiÃ§Ã£o.
+	*/
+	
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner scan = new Scanner(System.in);
 		int a, b, c, op;
 		
-		System.out.println("Digite um número");
+		System.out.println("Digite um nÃºmero");
 		a = scan.nextInt();
-		System.out.println("Digite um segundo número");
+		System.out.println("Digite um segundo nÃºmero");
 		b = scan.nextInt();
 		System.out.println("1 - Soma");
-		System.out.println("2 - Subtração");
-		System.out.println("3 - Multiplicação");
-		System.out.println("4 - Divisão");
-		System.out.print("Selecione uma das opções: ");
+		System.out.println("2 - SubtraÃ§Äƒo");
+		System.out.println("3 - MultiplicaÃ§Äƒo");
+		System.out.println("4 - DivisÄƒo");
+		System.out.print("Selecione uma das opÃ§Å‘es: ");
 		op = scan.nextInt();
 		
 		switch(op) {
