@@ -19,7 +19,7 @@ public class Loops {
 	
 	if (op == 1) {
 	/*
-	 * O 'While' executa infinitamente enquanto determinada condiÁ„o n„o for obedecida.
+	 * O 'While' executa infinitamente enquanto determinada condi√ß√£o for obedecida.
 	 */
 	
 		while (i == 0) {
@@ -32,7 +32,7 @@ public class Loops {
 	
 	
 	if (op == 2) {
-		System.out.println("Quantas repetiÁıes voce deseja? ");
+		System.out.println("Quantas repeti√ß√µes voce deseja? ");
 		x = scanner.nextInt();
 		scanner.close();
 	/*
@@ -53,12 +53,12 @@ public class Loops {
 	if (op == 3) {
 		
 		System.out.println("Digite 0 para executar ao infinito");
-		System.out.println("Ou qualquer outro valor numÈrico para executar uma vez");
+		System.out.println("Ou qualquer outro valor num√©rico para executar uma vez");
 		i = scanner.nextInt();
 		scanner.close();
 		
 	/*
-	 * Executa infinitamente, assim como o while, porÈm a primeira vez È executado
+	 * Executa infinitamente, assim como o while, por√©m a primeira vez √© executado
 	 * de qualquer maneira.
 	 */
 	
@@ -69,11 +69,11 @@ public class Loops {
 	}
 	
 	/*
-	 * While: Executa infinitamente, caso contr·rio n„o executa.
+	 * While: Executa infinitamente, caso contr√°rio n√£o executa.
 	 * 
-	 * For: Executa um determinado n˙mero de vezes.
+	 * For: Executa um determinado n√∫mero de vezes.
 	 * 
-	 * Do While: Executa infinitamente, caso contr·rio executa apenas uma vez.
+	 * Do While: Executa infinitamente, caso contr√°rio executa apenas uma vez.
 	 */
 	
 	}
