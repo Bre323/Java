@@ -1,30 +1,23 @@
 package programJar.Objects;
 
-// Objeto: … uma inst‚ncia de uma classe constituido de atributos e mÈtodos.
+// Objeto: √â uma inst√¢ncia de uma classe constituido de atributos e m√©todos.
 
 public class Object {
 	
 	public static void main(String[] args) {
 		Guitar oldGuitar = new Guitar();
 		
-		System.out.println(oldGuitar.brand);
-		System.out.println(oldGuitar.model);
-		System.out.println(oldGuitar.color);
-		System.out.println(oldGuitar.strings);
-		System.out.println(oldGuitar.price);
-		System.out.println(oldGuitar.tuned);
-		System.out.println();
-		
+		System.out.println(oldGuitar.toString());
 		oldGuitar.tuning();
 		oldGuitar.play();
+		System.out.println("\n");
 		
 		
-		/*
 		Guitar newGuitar = new Guitar();
 		newGuitar.brand = "Gibson";
 		newGuitar.model = "SG";
 		newGuitar.color = "Blue";
 		newGuitar.strings = 8;
-		*/
+		System.out.println(newGuitar.toString());
 	}
 }
