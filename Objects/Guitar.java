@@ -10,6 +10,10 @@ public class Guitar {
 	boolean tuned = false;
 	
 	
+	public String toString() {
+		return brand+"\n"+model+"\n"+color+"\n"+strings+"\n"+price+"\n"+tuned+"\n\n";
+	}
+	
 	void tuning() {
 		if(tuned == false) {
 			System.out.println("Tuning guitar...");
