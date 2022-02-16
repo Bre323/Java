@@ -12,6 +12,10 @@ public class Caneta {
 		this.setPonta(ponta);
 	}
 	
+	//COPY em forma de contrutor
+	Caneta(Caneta a) {
+		this.copy(a);
+	}
 	
 	//GETTERS
 	public String getModelo() {
@@ -34,5 +38,19 @@ public class Caneta {
 	}
 	public void setPonta(float ponta) {
 		this.ponta = ponta;
+	}
+	
+	
+	//TO STRING
+	public String toString() {
+		return "MODELO: " + this.getModelo() + "\nCOR: " + this.getCor() + "\nPONTA: " + this.getPonta() + "\n";
+	}
+	
+	
+	//COPY: é um método que copia um objeto.
+	public void copy(Caneta a) {
+		this.setModelo(a.getModelo());
+		this.setCor(a.getCor());
+		this.setPonta(a.getPonta());
 	}
 }
