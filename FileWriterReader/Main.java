@@ -2,17 +2,16 @@ package FileWriterReader;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		//UTILIZA«√O DO FILE WRITER
+		//UTILIZA√á√ÉO DO FILE WRITER
 		try {
 			FileWriter writer = new FileWriter("teste.txt");
-			writer.write("Isso È um teste.txt \n Um teste aleatÛrio \n Para um codigo aleatÛrio");
+			writer.write("Isso √© um teste.txt \n Um teste aleat√≥rio \n Para um codigo aleat√≥rio");
 			writer.append("\n- By Breno");
 			writer.close();
 		} 
@@ -21,7 +20,7 @@ public class Main {
 		}
 		
 		
-		//UTILIZA«√O DO FILE READER
+		//UTILIZA√á√ÉO DO FILE READER
 		try {
 			FileReader reader = new FileReader("C:\\Users\\breno\\eclipse-workspace\\programJar\\src\\FileWriterReader\\teste.txt");
 			int dado = reader.read();
